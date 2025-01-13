@@ -7,6 +7,8 @@
         Description: Cookies & sessions.
 
     ****************/
+
+    // This is a branch test.
     
     session_start();
     
@@ -17,6 +19,7 @@
     $user_requested_a_reset = isset($_POST['reset']);
     
     // Implement the guessing game logic here.
+    //
     
 ?>
 <!DOCTYPE html>
